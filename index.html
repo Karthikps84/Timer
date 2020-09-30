@@ -1,0 +1,78 @@
+<html>
+<head>
+  
+    <title>Timer</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/animate.css">
+
+    <script src="JS/wow.js"></script>
+              <script>
+		 wow = new WOW(
+                      {
+                      boxClass:     'wow',      // default
+                      animateClass: 'animated', // default
+                      offset:       0,          // default
+                      mobile:       true,       // default
+                      live:         true        // default
+                    }
+                    )
+              new WOW().init();
+    </script>
+    
+    
+</head>
+<body background="image1.jpg" class="wow bounceInUp">
+        
+    <div id="divTimer">
+        <table id="table1">
+            <tr>
+                <td id="hr">00</td>
+                <td id="colon">:</td>
+                <td id="min">00</td>
+                <td id="colon">:</td>
+                <td  id="sec">00</td>
+            </tr>
+        </table>
+    </div>
+    
+    <div id="detailsHistory">
+        <h1>History</h1>
+        <div id="history">
+            <ol id="olID">
+
+            </ol>
+            
+        </div>
+    </div>
+    
+   
+    <div id="divBtn">
+            <table id="table2">
+                    
+                <tr>
+                    <button type="button" id="btnStart">Start</button>
+                </tr>
+                <tr>
+                    <button type="button" id="btnStop" >Stop</button>
+                </tr>
+                <tr>
+                    <button type="button" id="btnLap" >Lap</button>
+                </tr>
+                <tr>
+                    <button type="button" id="btnReset" >Reset</button>
+                </tr>
+            </table>
+    </div>
+    <div id="detailsLaps">
+            <h1 id="lapHeader">&nbsp&nbspLaps</h1>
+        <div id="laps">
+            <ul id="ulID" >
+                
+            </ul>
+           
+        </div>
+    </div>
+    
+    <script src="JS/app.js"></script>  
+</body>
+</html>

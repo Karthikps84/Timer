@@ -1,0 +1,94 @@
+#table1{
+    font-family: Papyrus, fantasy; 
+    font-size: 80px;
+    font-style: normal; 
+    font-variant: small-caps; 
+    font-weight: 700; 
+    line-height: 49px;
+  
+}
+
+#hr,#min,#sec {
+    border: solid 0.5px white;
+    border-radius: 200px;
+    padding: 50px;
+    background: none;
+    color: white;
+
+}
+#hr:hover,#min:hover,#sec:hover{
+    border: solid 0.5px blue;
+}
+#divTimer{
+   padding-left: 34%;
+   padding-top: 15%;
+    
+}
+#divBtn{
+    float: left;
+    margin-left:17%;
+    margin-top:5%;
+
+}
+#colon{
+    color:white;
+}
+#btnStart,#btnReset,#btnStop,#btnLap{
+    font-family: Papyrus, fantasy; 
+    font-size: 80px;
+    font-style: normal; 
+    font-variant: small-caps;
+    font-size: 35px;
+    border-radius: 25px;
+    background: none;
+    color: white;
+    border: 2px solid whitesmoke;
+    padding: 10px 24px;
+    margin: 20px;    
+}
+#btnStart:hover,#btnReset:hover,#btnStop:hover,#btnLap:hover{
+    background-color:black;
+    color: white;
+    border-color: blue;
+    cursor:  -webkit-grabbing;
+}
+
+
+#detailsHistory{
+    height: 295px;
+    width: 200px;
+    border-right: solid 0.5px red ;
+    border-bottom: solid 0.5px red ;
+    color: white;
+    float: left;
+    margin-left: 50px;
+}
+#detailsLaps{
+    margin-left:200px; 
+    height: 295px;
+    width: 200px;
+    border-left: solid 0.5px red ;
+    border-bottom: solid 0.5px red ;
+    color: white;
+    float: left;
+}
+h1{
+    font-family: Papyrus, fantasy; 
+    font-size: 80px;
+    font-style: normal; 
+    font-variant: small-caps;
+    font-size: 35px;
+    width: 400px;
+
+}
+ul {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0.5em;
+    width: 400px;
+  }
+  li{
+      
+  }
+  
+ 
