@@ -1,2 +1,3 @@
 # timer
-Solution to webpage(https://karthikps84.github.io/timer/index.html)
+Preview of the website can be seen here
+https://karthikps84.github.io/Timer/
